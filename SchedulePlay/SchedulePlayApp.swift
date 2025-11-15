@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct AppleMenubarCalendarApp: App {
+struct SchedulePlayApp: App {
     @StateObject private var model = StatusItemViewModel()
     @Environment(\.scenePhase) private var scenePhase
 

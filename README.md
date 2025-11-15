@@ -1,6 +1,6 @@
-# Apple Menu Bar Calendar
+# SchedulePlay
 
-A lightweight SwiftUI macOS menu bar app that reminds you about the next calendar event within the next 30 minutes. Whenever the next 30 minutes are clear, it shows the title of the current Apple Music track instead.
+SchedulePlay is a lightweight SwiftUI macOS menu bar app that reminds you about the next calendar event within the next 30 minutes. Whenever the next 30 minutes are clear, it shows the title of the current Apple Music track instead.
 
 ## Features
 - Runs as a background agent (`LSUIElement`) and lives exclusively in the menu bar.
@@ -9,8 +9,8 @@ A lightweight SwiftUI macOS menu bar app that reminds you about the next calenda
 - Falls back to the current Apple Music song via AppleScript when there are no imminent events.
 
 ## Getting started
-1. Open `AppleMenubarCalendar.xcodeproj` in Xcode 15 or newer.
-2. Select the `AppleMenubarCalendar` scheme and a "My Mac" destination.
+1. Open `SchedulePlay.xcodeproj` in Xcode 15 or newer.
+2. Select the `SchedulePlay` scheme and a "My Mac" destination.
 3. Update the signing team or bundle identifier if needed.
 4. Build & run. The first launch requests calendar access and Apple Music scripting access.
 5. The status text automatically refreshes every minute; use the menu's Refresh button to update immediately.

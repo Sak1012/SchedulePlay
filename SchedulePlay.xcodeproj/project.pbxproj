@@ -6,7 +6,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-	1A1F7FBE28B0F47500DCE9B6 /* AppleMenubarCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F7FBE28B0F47500DCE9AF /* AppleMenubarCalendarApp.swift */; };
+	1A1F7FBE28B0F47500DCE9B6 /* SchedulePlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F7FBE28B0F47500DCE9AF /* SchedulePlayApp.swift */; };
 	1A1F7FBE28B0F47500DCE9B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F7FBE28B0F47500DCE9B0 /* ContentView.swift */; };
 	1A1F7FBE28B0F47500DCE9B8 /* StatusItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F7FBE28B0F47500DCE9B1 /* StatusItemViewModel.swift */; };
 	1A1F7FBE28B0F47500DCE9B9 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F7FBE28B0F47500DCE9B2 /* EventService.swift */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-	1A1F7FBE28B0F47500DCE9AE /* AppleMenubarCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMenubarCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-	1A1F7FBE28B0F47500DCE9AF /* AppleMenubarCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMenubarCalendarApp.swift; sourceTree = "<group>"; };
+	1A1F7FBE28B0F47500DCE9AE /* SchedulePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedulePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+	1A1F7FBE28B0F47500DCE9AF /* SchedulePlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePlayApp.swift; sourceTree = "<group>"; };
 	1A1F7FBE28B0F47500DCE9B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 	1A1F7FBE28B0F47500DCE9B1 /* StatusItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemViewModel.swift; sourceTree = "<group>"; };
 	1A1F7FBE28B0F47500DCE9B2 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
@@ -31,15 +31,15 @@
 	1A1F7FBE28B0F47500DCE9A2 = {
 		isa = PBXGroup;
 		children = (
-			1A1F7FBE28B0F47500DCE9A3 /* AppleMenubarCalendar */,
+			1A1F7FBE28B0F47500DCE9A3 /* SchedulePlay */,
 			1A1F7FBE28B0F47500DCE9A4 /* Products */,
 		);
 		sourceTree = "<group>";
 	};
-	1A1F7FBE28B0F47500DCE9A3 /* AppleMenubarCalendar */ = {
+	1A1F7FBE28B0F47500DCE9A3 /* SchedulePlay */ = {
 		isa = PBXGroup;
 		children = (
-			1A1F7FBE28B0F47500DCE9AF /* AppleMenubarCalendarApp.swift */,
+			1A1F7FBE28B0F47500DCE9AF /* SchedulePlayApp.swift */,
 			1A1F7FBE28B0F47500DCE9B0 /* ContentView.swift */,
 			1A1F7FBE28B0F47500DCE9B1 /* StatusItemViewModel.swift */,
 			1A1F7FBE28B0F47500DCE9B2 /* EventService.swift */,
@@ -48,13 +48,13 @@
 			1A1F7FBE28B0F47500DCE9B4 /* Assets.xcassets */,
 			1A1F7FBE28B0F47500DCE9B5 /* Info.plist */,
 		);
-		path = AppleMenubarCalendar;
+		path = SchedulePlay;
 		sourceTree = "<group>";
 	};
 	1A1F7FBE28B0F47500DCE9A4 /* Products */ = {
 		isa = PBXGroup;
 		children = (
-			1A1F7FBE28B0F47500DCE9AE /* AppleMenubarCalendar.app */,
+			1A1F7FBE28B0F47500DCE9AE /* SchedulePlay.app */,
 		);
 		name = Products;
 		sourceTree = "<group>";
@@ -62,9 +62,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-	1A1F7FBE28B0F47500DCE9A5 /* AppleMenubarCalendar */ = {
+	1A1F7FBE28B0F47500DCE9A5 /* SchedulePlay */ = {
 		isa = PBXNativeTarget;
-		buildConfigurationList = 1A1F7FBE28B0F47500DCE9A9 /* Build configuration list for PBXNativeTarget "AppleMenubarCalendar" */;
+		buildConfigurationList = 1A1F7FBE28B0F47500DCE9A9 /* Build configuration list for PBXNativeTarget "SchedulePlay" */;
 		buildPhases = (
 			1A1F7FBE28B0F47500DCE9AC /* Sources */,
 			1A1F7FBE28B0F47500DCE9AD /* Resources */,
@@ -73,9 +73,9 @@
 		);
 		dependencies = (
 		);
-		name = AppleMenubarCalendar;
-		productName = AppleMenubarCalendar;
-		productReference = 1A1F7FBE28B0F47500DCE9AE /* AppleMenubarCalendar.app */;
+		name = SchedulePlay;
+		productName = SchedulePlay;
+		productReference = 1A1F7FBE28B0F47500DCE9AE /* SchedulePlay.app */;
 		productType = "com.apple.product-type.application";
 	};
 /* End PBXNativeTarget section */
@@ -93,7 +93,7 @@
 				};
 			};
 		};
-		buildConfigurationList = 1A1F7FBE28B0F47500DCE9A6 /* Build configuration list for PBXProject "AppleMenubarCalendar" */;
+		buildConfigurationList = 1A1F7FBE28B0F47500DCE9A6 /* Build configuration list for PBXProject "SchedulePlay" */;
 		compatibilityVersion = "Xcode 15.0";
 		developmentRegion = en;
 		hasScannedForEncodings = 0;
@@ -106,7 +106,7 @@
 		projectDirPath = "";
 		projectRoot = "";
 		targets = (
-			1A1F7FBE28B0F47500DCE9A5 /* AppleMenubarCalendar */,
+			1A1F7FBE28B0F47500DCE9A5 /* SchedulePlay */,
 		);
 	};
 /* End PBXProject section */
@@ -130,7 +130,7 @@
 			1A1F7FBE28B0F47500DCE9BA /* MusicService.swift in Sources */,
 			1A1F7FBE28B0F47500DCE9B8 /* StatusItemViewModel.swift in Sources */,
 			1A1F7FBE28B0F47500DCE9B9 /* EventService.swift in Sources */,
-			1A1F7FBE28B0F47500DCE9B6 /* AppleMenubarCalendarApp.swift in Sources */,
+			1A1F7FBE28B0F47500DCE9B6 /* SchedulePlayApp.swift in Sources */,
 			1A1F7FBE28B0F47500DCE9B7 /* ContentView.swift in Sources */,
 			1A1F7FBE28B0F47500DCE9BC /* MenuLabelView.swift in Sources */,
 		);
@@ -258,7 +258,7 @@
 			DEVELOPMENT_TEAM = "";
 			ENABLE_HARDENED_RUNTIME = YES;
 			GENERATE_INFOPLIST_FILE = NO;
-			INFOPLIST_FILE = AppleMenubarCalendar/Info.plist;
+			INFOPLIST_FILE = SchedulePlay/Info.plist;
 			IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 			LD_RUNPATH_SEARCH_PATHS = (
 				"$(inherited)",
@@ -266,7 +266,7 @@
 			);
 			MACOSX_DEPLOYMENT_TARGET = 13.0;
 			MARKETING_VERSION = 1.0;
-			PRODUCT_BUNDLE_IDENTIFIER = com.example.applemenubarcalendar;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.scheduleplay;
 			PRODUCT_NAME = "$(TARGET_NAME)";
 			SDKROOT = macosx;
 			SUPPORTS_MAC_DESIGNED_FOR_IPHONE = NO;
@@ -288,7 +288,7 @@
 			DEVELOPMENT_TEAM = "";
 			ENABLE_HARDENED_RUNTIME = YES;
 			GENERATE_INFOPLIST_FILE = NO;
-			INFOPLIST_FILE = AppleMenubarCalendar/Info.plist;
+			INFOPLIST_FILE = SchedulePlay/Info.plist;
 			IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 			LD_RUNPATH_SEARCH_PATHS = (
 				"$(inherited)",
@@ -296,7 +296,7 @@
 			);
 			MACOSX_DEPLOYMENT_TARGET = 13.0;
 			MARKETING_VERSION = 1.0;
-			PRODUCT_BUNDLE_IDENTIFIER = com.example.applemenubarcalendar;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.scheduleplay;
 			PRODUCT_NAME = "$(TARGET_NAME)";
 			SDKROOT = macosx;
 			SUPPORTS_MAC_DESIGNED_FOR_IPHONE = NO;
@@ -311,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-	1A1F7FBE28B0F47500DCE9A6 /* Build configuration list for PBXProject "AppleMenubarCalendar" */ = {
+	1A1F7FBE28B0F47500DCE9A6 /* Build configuration list for PBXProject "SchedulePlay" */ = {
 		isa = XCConfigurationList;
 		buildConfigurations = (
 			1A1F7FBE28B0F47500DCE9A7 /* Debug */,
@@ -320,7 +320,7 @@
 		defaultConfigurationIsVisible = 0;
 		defaultConfigurationName = Release;
 	};
-	1A1F7FBE28B0F47500DCE9A9 /* Build configuration list for PBXNativeTarget "AppleMenubarCalendar" */ = {
+	1A1F7FBE28B0F47500DCE9A9 /* Build configuration list for PBXNativeTarget "SchedulePlay" */ = {
 		isa = XCConfigurationList;
 		buildConfigurations = (
 			1A1F7FBE28B0F47500DCE9AA /* Debug */,
